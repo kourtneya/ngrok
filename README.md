@@ -35,5 +35,20 @@
     ```
 
 7. You should see similar results below. This docker container must be running for request to tunnel to your local service
-
-    
+    ```bash
+    ngrok                                                                                                                              (Ctrl+C to quit)
+                                                                                                                                                   
+    🤖 Want to hang with ngrokkers on our new Discord? https://discord.gg/xvAfCpJG                                                                     
+                                                                                                                                                    
+    Session Status                online                                                                                                               
+    Account                       kourtneya (Plan: Free)                                                                                               
+    Update                        update available (version 3.22.1, Ctrl-U to update)                                                                  
+    Version                       3.22.1                                                                                                               
+    Region                        United States (us)                                                                                                   
+    Latency                       421ms                                                                                                                
+    Web Interface                 http://0.0.0.0:4040                                                                                                  
+    Forwarding                    https://c6d8-173-38-117-89.ngrok-free.app -> http://host.docker.internal:8084                                        
+                                                                                                                                                    
+    Connections                   ttl     opn     rt1     rt5     p50     p90                                                                          
+                                0       0       0.00    0.00    0.00    0.00 
+    ```

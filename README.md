@@ -29,7 +29,10 @@
     - **Windows** <br>
     Click the **`Start`** button *(usually Windows icson)* at the bottom left corner of the screen. Type `cmd` and press <kdb>Enter</kdb>
 
+---
+
 ### Source Code
+
 1. Clone the repository to your local machine
     ```bash
     git clone https://github.com/kourtneya/ngrok.git 
@@ -100,6 +103,8 @@
     Public URL:  NgrokTunnel: "https://c22c-172-98-16-94.ngrok-free.app" -> "http://localhost:8084"
     Press [Enter] to exit...
     ```
+
+---
 
 ### Docker Setup
 
